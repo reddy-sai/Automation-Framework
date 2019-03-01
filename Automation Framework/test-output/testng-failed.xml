@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.actitime.screenshots.case4">
+        <methods>
+          <include name="preConfig"/>
+          <include name="postConfig"/>
+          <include name="Testcase4"/>
+        </methods>
+      </class> <!-- com.actitime.screenshots.case4 -->
+      <class name="com.actitime.screenshots.case1">
+        <methods>
+          <include name="preConfig"/>
+          <include name="Testcase1"/>
+          <include name="postConfig"/>
+        </methods>
+      </class> <!-- com.actitime.screenshots.case1 -->
+      <class name="com.actitime.screenshots.case3">
+        <methods>
+          <include name="preConfig"/>
+          <include name="postConfig"/>
+          <include name="Testcase3"/>
+        </methods>
+      </class> <!-- com.actitime.screenshots.case3 -->
+      <class name="com.actitime.screenshots.case2">
+        <methods>
+          <include name="preConfig"/>
+          <include name="postConfig"/>
+          <include name="Testcase2"/>
+        </methods>
+      </class> <!-- com.actitime.screenshots.case2 -->
+      <class name="com.actitime.screenshots.case5">
+        <methods>
+          <include name="preConfig"/>
+          <include name="postConfig"/>
+          <include name="Testcase5"/>
+        </methods>
+      </class> <!-- com.actitime.screenshots.case5 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
